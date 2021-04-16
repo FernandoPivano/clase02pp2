@@ -1,0 +1,5 @@
+1git add .
+2git commit -m "el mensaje del commit"
+3git push
+nota:comando git cloin se utiliza una unica vez por cada repositorio en cada maquina
+comando git status se ejecuta las veces que uno quiera
