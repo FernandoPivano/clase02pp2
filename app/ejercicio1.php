@@ -1,7 +1,10 @@
 
 <?php
-  $numero = 15;
-  if ($numero>13) {
-    echo "El numero es menor";
-  }
+$edad = 50;
+ 
+if ($edad >= 18) {
+    echo "Mayor de edad";
+} else {
+    echo "Menor de edad";
+}
 ?>
