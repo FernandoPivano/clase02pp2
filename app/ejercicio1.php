@@ -1,7 +1,7 @@
 
 <?php
-  $numero = 3;
-  if ($numero>2) {
-    echo "El numero es mayor que 2";
+  $numero = 15;
+  if ($numero>13) {
+    echo "El numero es menor";
   }
 ?>
