@@ -1,6 +1,7 @@
+
 <?php
- $edad = 15;
- if ($numero>18) {
-   echo "El numero es mayor que 15";
- }
+  $numero = 3;
+  if ($numero>2) {
+    echo "El numero es mayor que 2";
+  }
 ?>
