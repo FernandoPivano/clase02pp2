@@ -1,20 +1,23 @@
 
 <?php
-$num1 = 10;
-$num2 = 6;
-$num3 = 5;
 
-If($num1 > $num2){
-If($num1 > $num3){
-echo 'numero ' . $num1 . ' es mayor';
-} else {
-echo 'numero ' . $num3 . ' es mayor';
-}
-} else {
-If($num2 > $num3){
-echo 'numero ' . $num2 . ' es mayor';
-} else {
-echo 'numero ' . $num3 . ' es mayor';
-}
-}
+	$ numero1 = rand ( 1 , 100 );
+	$ numero2 = rand ( 1 , 100 );
+	$ numero3 = rand ( 1 , 100 );
+
+	echo  "El numero 1 es: $ numero1 <br>" ;
+	echo  "El numero 2 es: $ numero2 <br>" ;
+	echo  "El numero 4 es: $ numero3 <br> <br>" ;
+
+ 
+	if ( $ numero1 > $ numero2 ) {
+		$ alcalde = $ numero1 ;
+	} más {
+		$ alcalde = $ numero2 ;
+	}
+
+	if ( $ numero3 > $ alcalde ) {
+		$ alcalde = $ numero3 ;
+	}
+	echo  "El mayor de los tres números es: $ mayor" ;
 ?>
