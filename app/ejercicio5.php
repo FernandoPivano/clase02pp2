@@ -12,7 +12,8 @@ switch ($Edad) {
    case 2 "Mayor":
         echo "de 18 a 100 años: eres una persona Mayor";
         break;
-
+	default:
+        echo "aún no me has dicho tu edad";  
    }
 
 ?>
