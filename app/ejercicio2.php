@@ -8,6 +8,6 @@ function iva ($importe){
 $importe=100;
 $importe_con_iva = iva ($importe);
 
-echo "Importe: $importe<br />";
+echo "Importe: $importe<br/>";
 echo "Importe + IVA: $importe_con_iva";
 ?>
