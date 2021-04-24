@@ -17,7 +17,7 @@ if ($n1!=$n2 && $n1!=$n3 && $n2!=$n3) {
           if ($n1>$n3 && $n3<$n2) {
                $medio=$n3;
           } else {
-           $medio=$n1
+           $medio=$n1;
           }
      }
      $medio;
