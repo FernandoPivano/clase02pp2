@@ -9,15 +9,15 @@ echo "El número 1 es: $num1 <br>";
 echo "El número 2 es: $num2 <br>";
 echo "El número 3 es: $num3 <br>";
 
-if ($n1!=$n2 && $n1!=$n3 && $n2!=$n3) {
+if ($num1!=$num2 && $num1!=$num3 && $num2!=$num3) {
 
-     if($n1>$n2 && $n2<$n3) {
-          $medio=$n2;
+     if($num1>$num2 && $num2<$num3) {
+          $medio=$num2;
      } else {
-          if ($n1>$n3 && $n3<$n2) {
-               $medio=$n3;
+          if ($num1>$num3 && $num3<$num2) {
+               $medio=$num3;
           } else {
-           $medio=$n1;
+           $medio=$num1;
           }
      }
      $medio;
@@ -25,7 +25,7 @@ if ($n1!=$n2 && $n1!=$n3 && $n2!=$n3) {
 }
 else 
 {
-     echo "$n1, $n2, $n3 no tiene";
+     echo "$num1, $num2, $num3 no tiene";
 }
 
 ?>
