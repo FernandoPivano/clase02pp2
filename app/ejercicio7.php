@@ -2,15 +2,30 @@
 <?php
 
 $num1 = rand (1,50);
+$num2 = rand (1,50);
+$num3 = rand (1,50);
 
-if($num > 0 && $num <= 5){
-     echo “El número se encuentra entre el 1 y el 5”;
+echo "El número 1 es: $num1 <br>";
+echo "El número 2 es: $num2 <br>";
+echo "El número 3 es: $num3 <br>";
+
+if ($n1!=$n2 && $n1!=$n3 && $n2!=$n3) {
+
+     if($n1>$n2 && $n2<$n3) {
+          $medio=$n2;
+     } else {
+          if ($n1>$n3 && $n3<$n2) {
+               $medio=$n3;
+          } else {
+           $medio=$n1
+          }
+     }
+     $medio;
+
 }
-elseif($num > 5 && $num <= 10){
-     echo “El número se encuentra entre el 6 y el 10”;
-}
-else{
-     echo “El número se encuentra en el rango de 1 al 10”;
+else 
+{
+     echo "$n1, $n2, $n3 no tiene";
 }
 
 ?>
