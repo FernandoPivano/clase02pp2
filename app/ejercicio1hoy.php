@@ -1,8 +1,10 @@
 
 <?php
 
-$miNombre="fernando";
+function mostrar($datoparaMostrar)
 
-echo "Hola MUNDO 2021 <br>";
+{
+echo "HOLA" .$datoparaMostrar;
+}
 
 ?>

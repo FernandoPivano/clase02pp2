@@ -6,6 +6,10 @@
 
 require "ejercicio1hoy.php";
 
-var_dump($miNombre);
+$miNombre="tu nombre";
+//var_dump($miNombre);
+
+mostrar ($miNombre);
+//echo "llegue";
 
 ?>
