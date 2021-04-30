@@ -1,9 +1,8 @@
 
 <?php
 
-echo "<h3> php 2do 2da </h3>";
-$miNombre=null;
+$miNombre="fernando";
 
-var_dump($miNombre);
+echo "Hola MUNDO 2021 <br>";
 
 ?>
